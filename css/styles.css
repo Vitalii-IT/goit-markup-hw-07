@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
@@ -11,9 +11,9 @@
   --icons-color: #afb1b8;
   --modal-bcg: rgba(0, 0, 0, 0.2);
   --overlay-bcg: rgba(33, 150, 243, 0.9);
-}
+} */
 
-body {
+/* body {
   background-color: var(--bcg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -34,22 +34,22 @@ img {
   display: block;
   width: 100%;
   height: auto;
-}
+} */
 
 /* HEADER */
 
-.header {
+/* .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
-.header__container {
+/* .header__container {
   display: flex;
   align-items: center;
 }
@@ -57,10 +57,10 @@ img {
 .header__nav {
   display: flex;
   align-items: center;
-}
+} */
 
 /* logo */
-.logo {
+/* .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -75,11 +75,11 @@ img {
 
 .logo--footer {
   color: var(--bcg-color);
-}
+} */
 
 /* header-menu*/
 
-.header__menu {
+/* .header__menu {
   display: flex;
   margin-left: 93px;
 }
@@ -121,12 +121,12 @@ img {
   border-radius: 2px;
   width: 108%;
   height: 4px;
-  background-color: #2196f3;
-}
+  background-color: var(--accrnt-color);
+} */
 
 /* contacts header */
 
-.contacts {
+/* .contacts {
   display: flex;
   margin-left: auto;
 }
@@ -167,11 +167,11 @@ img {
 .contacts__icon--smartphone {
   width: 10px;
   height: 16px;
-}
+} */
 
 /* MAIN */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--hero-bcg);
@@ -219,11 +219,11 @@ img {
   text-decoration: none;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* Модальне вікно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -239,8 +239,8 @@ img {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
-
+} */
+/* 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
 }
@@ -377,7 +377,6 @@ img {
 }
 
 .modal__check {
-  /* appearance: none; */
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -440,11 +439,11 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid #188ce8;
   border-radius: 4px;
-}
+} */
 
 /* Sections */
 
-.part {
+/* .part {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -475,11 +474,11 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 /* FEATURES */
 
-.features {
+/* .features {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -519,11 +518,11 @@ img {
 
   font-size: 14px;
   line-height: 1.71;
-}
+} */
 
 /* Чим ми займаємось */
 
-.jobs {
+/* .jobs {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -552,15 +551,13 @@ img {
   color: #ffffff;
 
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Our team */
 
-.part--seconday-white {
-  background-color: var(--secondary-white);
-}
 
-.team {
+
+/* .team {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -599,9 +596,9 @@ img {
 
   font-size: 16px;
   line-height: 1.19;
-}
+} */
 
-.sociallinks {
+/* .sociallinks {
   display: flex;
   justify-content: center;
   margin: 16px 0 0 0;
@@ -632,11 +629,11 @@ img {
 
 .sociallinks__icon {
   fill: currentColor;
-}
+} */
 
 /* Постійні Клієнти */
 
-.clients {
+/* .clients {
   display: flex;
   justify-content: space-between;
 }
@@ -665,11 +662,11 @@ img {
   width: 106px;
   height: 60px;
   fill: currentColor;
-}
+} */
 
 /* Футер */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -712,9 +709,9 @@ img {
 
 .address__mail {
   margin-bottom: 9px;
-}
+} */
 
-.join {
+/* .join {
   margin-left: 70px;
 }
 
@@ -752,9 +749,9 @@ img {
 .join__link:hover,
 .join__link:focus {
   background-color: var(--accent-color);
-}
+} */
 
-.sign-form {
+/* .sign-form {
   margin-left: 93px;
 }
 
@@ -828,11 +825,11 @@ img {
 
 .sign-form__icon {
   margin-left: 10px;
-}
+} */
 
 /* PORTFOLIO STYLES */
 
-.filter {
+/* .filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -866,9 +863,9 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.works {
+/* .works {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -876,9 +873,9 @@ img {
 
 .works__item {
   flex-basis: calc((100% - 60px) / 3);
-}
+} */
 
-.card {
+/* .card {
   display: inline-block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -951,4 +948,4 @@ img {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
-}
+} */
